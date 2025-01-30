@@ -1,0 +1,526 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a11a1a;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #8e5a44;
+    color: rgb(190, 10, 10);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(149, 13, 13);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('bakery-hero.jpg');
+    background-size: cover;
+    color: rgb(207, 11, 11);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Featured Section */
+.featured {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 2.5em;
+    color: #8e5a44;
+    margin-bottom: 20px;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.item {
+    background-color: rgb(179, 25, 25);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.item h3 {
+    font-size: 1.8em;
+    color: #8e5a44;
+    margin-top: 15px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8e5a44;
+    color: rgb(128, 18, 33);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #8e5a44; /* Bakery theme color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Menu Section Styling */
+main {
+    padding: 50px 20px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2.5em;
+    color: #8e5a44;
+    margin-bottom: 20px;
+}
+
+.menu p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Menu Category Styling */
+.menu-category {
+    margin-bottom: 50px;
+}
+
+.menu-category h3 {
+    font-size: 2em;
+    color: #8e5a44;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item h4 {
+    font-size: 1.5em;
+    color: #8e5a44;
+    margin-top: 15px;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+    color: #8e5a44;
+    margin-top: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8e5a44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #8e5a44;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Main About Section */
+main {
+    padding: 50px 20px;
+}
+
+/* About Section Styling */
+.about h2 {
+    font-size: 2.5em;
+    color: #8e5a44;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-text h3 {
+    font-size: 2em;
+    color: #8e5a44;
+    margin-top: 20px;
+}
+
+.about-text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+/* Team Section Styling */
+.about-team {
+    text-align: center;
+}
+
+.about-team h3 {
+    font-size: 2.5em;
+    color: #8e5a44;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 200px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h4 {
+    font-size: 1.5em;
+    color: #8e5a44;
+}
+
+.team-member p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8e5a44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #8e5a44;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Main Contact Section */
+main {
+    padding: 50px 20px;
+}
+
+/* Contact Us Section */
+.contact h2 {
+    font-size: 2.5em;
+    color: #8e5a44;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-method {
+    text-align: center;
+    width: 250px;
+}
+
+.contact-method h3 {
+    font-size: 1.8em;
+    color: #8e5a44;
+    margin-bottom: 10px;
+}
+
+.contact-method p {
+    font-size: 1.1em;
+}
+
+.contact-method a {
+    text-decoration: none;
+    color: #8e5a44;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h3 {
+    font-size: 2.5em;
+    color: #8e5a44;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1.2em;
+    color: #8e5a44;
+    text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #8e5a44;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #6a3c27;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8e5a44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
